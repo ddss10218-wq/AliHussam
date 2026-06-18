@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Social Media</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#080d1f;
+    color:white;
+    padding:20px;
+}
+
+.container{
+    max-width:800px;
+    margin:auto;
+}
+
+.card{
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:25px;
+    padding:25px;
+    margin-bottom:20px;
+    backdrop-filter:blur(10px);
+}
+
+.header{
+    text-align:center;
+}
+
+.profile{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:3px solid #fff;
+    object-fit:cover;
+    margin-bottom:15px;
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+.links{
+    display:grid;
+    gap:15px;
+}
+
+.link-box{
+    background:#111827;
+    border-radius:20px;
+    padding:20px;
+}
+
+.link-box a{
+    color:#8b5cf6;
+    text-decoration:none;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.about{
+    line-height:1.8;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card header">
+<img src="profile.jpg" class="profile">
+
+<h1>My Social Media</h1>
+<p>Welcome! That's my social links</p>
+</div>
+
+<div class="card">
+<h2>My Active Social Media</h2>
+<br>
+
+<div class="links">
+
+<div class="link-box">
+<h3>Instagram</h3>
+<a href="https://instagram.com/your_username">
+Follow Me
+</a>
+</div>
+
+<div class="link-box">
+<h3>Telegram</h3>
+<a href="https://t.me/your_username">
+Contact Me
+</a>
+</div>
+
+<div class="link-box">
+<h3>Discord</h3>
+<a href="#">
+Add Me
+</a>
+</div>
+
+</div>
+</div>
+
+<div class="card about">
+<h2>About Me</h2>
+<br>
+<p>
+My name is Ali Hussam.<br>
+I am a student and programmer.
+</p>
+</div>
+
+</div>
+
+</body>
+</html>
